@@ -1,23 +1,56 @@
+header{
+    margin-top: -1%;
+}
 body{
     background-color: rgb(19, 19, 19);
     color: white;
     margin: 0;
-    padding: 0;
-    
-    
+ 
 }
 main{
     position: relative;
-    top: 50px;
-    margin-bottom: 5%;
+    top: 70px;
+    
 
 }
-.imgMusculacion{
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+section{
+    background-color: black;
+    padding: 2% 1% 2% 1%;
+    margin: 5%;
+    margin-bottom: 5%;
+    font-size: 150%;
+    text-align: center;
+}
+.imgMusculacion, .imgPiscinaInt, .imgPiscinaExt{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
-.imgMusculacion img{
-    width: 20%;
-    height: 300px;
+ img{
+    width: 43%;
+    height: 400px;
+    padding-bottom: 1%;
+}
+
+.imgPiscinaExt img{
+
+    width: 45%;
+    height: 400px;
+
+}
+.imgParking img{
+
+    width: 50%;
+    height: 400px;
+
+}
+
+h2{
+    color: red;
+    font-size: 125%;
 }
