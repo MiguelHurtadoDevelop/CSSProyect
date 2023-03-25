@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+main{
+    position: relative;
+    top: 50px;
+    margin-bottom: 5%;
+
+}
+.imgMusculacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgMusculacion img{
+    width: 20%;
+    height: 300px;
+}
