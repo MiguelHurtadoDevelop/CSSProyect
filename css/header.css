@@ -89,35 +89,11 @@ header{
   }
 
 
-  .menu-icon {
-    display: none;
-}
 
-#menu-toggle{
-  display: none;
-}
 
 /* Este estilo muestra el icono de menú en dispositivos móviles */
 @media screen and (max-width: 767px) {
-    .menu-icon {
-        display: inline-block;
-        cursor: pointer;
-        font-size: 24px;
-        margin-right: 10px;
-    }
-
-    nav {
-        display: none;
-
-    }
-
-    /* Este estilo muestra el menú cuando el checkbox está seleccionado y el icono de menú está oculto */
-    input[type="checkbox"]#menu-toggle:checked ~ nav:not(:empty) {
-        display: block;
-    }
-    nav #menu-toggle:checked {
-      display: flex;
-      flex-direction: column;
-      
-    }
+  .menu ul li:checked > ul {
+    display: block;
+  }
 }
