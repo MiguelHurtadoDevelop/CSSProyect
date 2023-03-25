@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin: 0;
+    
+    
+}
+main{
+    position: relative;
+    top: 40px
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 200%;
+}
+
+.principio{
+    background-image: url(../img/istockphoto-953047628-170667a.jpg);
+    background-size: 100%;
+    font-size: 200%;
+    padding: 1%;
+    
+}
+.principio button{
+    font-size: 60%;
+}
+.presentacion{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.presentacion img{
+    width: 35%;
+    height: 400px;
+}
+.presentacion article{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    height: 300px;
+
+}
+.presentacion article h2{
+   color: white;
+   font-size: 300%;
+  
+}
+.presentacion article p{
+    
+    font-size: 130%;
+    padding-bottom: 3%;
+   
+ }
+ .presentacion article button{
+    
+    font-size: 130%;
+   
+ }
+ 
+.frases_index img{
+    width: 45%;
+}
+.frases_index article{
+    width: 45%;
+    text-align: center;
+}
+.frases_index article h3{
+    color: red;
+    font-size: 250%;
+}
+.frases_index article p{
+    font-size: 150%;
+}
+
+.frases_index {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+    margin-bottom: 5%;
+}
+.clases{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.clases button{
+    font-size: 100%;
+}
+table{
+    width: 100%;
+    font-size: 150%;
+    
+}
+
+
+ th, td{
+   padding: 1%;
+   
+   
+   
+}
+button{
+    background-color: red;
+    border-radius: 25px ;
+    border: none;
+    padding: 1%;
+}
+button:hover{
+    background-color: rgb(151, 2, 2);
+}
+
+@media screen and (max-width: 768px){
+    body{
+        width: 140%;
+        font-size: 80%;
+    }
+    main{
+        margin-bottom: 10%;
+    }
+    .presentacion img{
+        height: 200px;
+    }
+    
+    
+}

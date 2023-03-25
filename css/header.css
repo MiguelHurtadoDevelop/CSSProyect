@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+   
+}
+
+.menu{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  
+  .menu ul li a {
+    color: white;
+    display: block;
+    font-size: 125%;
+    line-height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul ul {
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 125px;
+    z-index: 1;
+  }
+  
+  .menu ul ul li {
+    display: block;
+    position: relative;
+  }
+
+  .menu > ul > li:last-child {
+    float: right;
+    background-color: red;
+  }
+  
+  .menu ul ul li a {
+    color: white;
+    font-size: 125%;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  
+  .menu ul ul ul {
+    left: 125px;
+    top: 0;
+  }
+  
+  .menu ul ul ul li a {
+    line-height: 30px;
+  }
+  
+  .menu ul li:hover > a {
+    background-color: white;
+    color: black;
+  }
+  
+  .menu ul ul li:hover > a {
+    background-color: white;
+    color: black;
+  }
+  
+  .menu ul ul ul li:hover > a {
+    background-color: white;
+    color: black;
+  }
