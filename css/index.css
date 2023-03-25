@@ -121,7 +121,7 @@ button:hover{
 @media screen and (max-width: 768px){
     body{
         width: 140%;
-        font-size: 80%;
+        font-size: 60%;
     }
     main{
         margin-bottom: 10%;
