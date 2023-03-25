@@ -108,12 +108,16 @@ header{
 
     nav {
         display: none;
+
     }
 
     /* Este estilo muestra el menú cuando el checkbox está seleccionado y el icono de menú está oculto */
     input[type="checkbox"]#menu-toggle:checked ~ nav:not(:empty) {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        display: block;
+    }
+    nav #menu-toggle:checked {
+      display: flex;
+      flex-direction: column;
+      
     }
 }
