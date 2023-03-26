@@ -53,13 +53,13 @@ article p:first-of-type{
 @media screen and (max-width: 768px){
     body{
         width: 140%;
-        font-size: 60%;
+        font-size: 50%;
     }
     main{
         margin-bottom: 10%;
     }
     .presentacion img{
-        height: 200px;
+        height: 150px;
     }
     
     
