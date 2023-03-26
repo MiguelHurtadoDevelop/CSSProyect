@@ -149,4 +149,8 @@ button:hover{
     main{
         margin-bottom: 20%;
     }
+    .presentacion img{
+        
+        height: 200px;
+    }
   }
