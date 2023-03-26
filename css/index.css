@@ -19,6 +19,11 @@ h2{
     color: red;
     font-size: 200%;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
 
 .principio{
     background-image: url(../img/istockphoto-953047628-170667a.jpg);
