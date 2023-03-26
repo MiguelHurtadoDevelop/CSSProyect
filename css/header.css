@@ -43,8 +43,12 @@ header{
     position: absolute;
     top: 50px;
     left: 0;
-    width: 125px;
+    width: 128px;
     z-index: 1;
+  }
+  .menu ul ul ul li a{
+    padding: 5px 5px 5px 23px;
+    
   }
   
   .menu ul ul li {
@@ -65,8 +69,9 @@ header{
   }
   
   .menu ul ul ul {
-    left: 125px;
+    left: 128px;
     top: 0;
+    width: 190px;
   }
   
   .menu ul ul ul li a {
@@ -91,7 +96,7 @@ header{
 
 
 
-/* Este estilo muestra el icono de menú en dispositivos móviles */
+
 @media screen and (max-width: 767px) {
   .menu ul li:checked > ul {
     display: block;
