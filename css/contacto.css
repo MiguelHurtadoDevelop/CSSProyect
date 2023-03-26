@@ -61,9 +61,16 @@ label {
     main{
         margin-bottom: 15%;
     }
-    
-    
-    
 }
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    body{
+        font-size: 80%;
+    }
+
+    main{
+        margin-bottom: 10%;
+    }
+  }
 
 
