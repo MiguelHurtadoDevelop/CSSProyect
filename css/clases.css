@@ -58,8 +58,9 @@ article p:first-of-type{
     main{
         margin-bottom: 15%;
     }
-    img{
-        height: 100px;
+    .Actividades img{
+        
+        height: 200px;
     }
     
     
