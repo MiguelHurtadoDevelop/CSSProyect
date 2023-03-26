@@ -17,6 +17,9 @@ header{
     margin: 0;
     padding: 0;
   }
+  .menu ul a:active {
+    border-bottom: 1px solid red;
+  }
   
   .menu ul li {
     display: inline-block;
