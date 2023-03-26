@@ -32,8 +32,9 @@ a{
     padding: 1%;
     
 }
-.principio button{
+.principio a{
     font-size: 60%;
+    
 }
 .presentacion{
     margin-top: 1%;
@@ -118,7 +119,13 @@ table{
    
    
 }
-button{
+main a{
+    background-color: red;
+    border-radius: 25px ;
+    border: none;
+    padding: 1%;
+}
+main a{
     background-color: red;
     border-radius: 25px ;
     border: none;
@@ -141,16 +148,12 @@ button:hover{
     }
 }
 
-@media screen and (min-width: 480px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     body{
         font-size: 60%;
     }
 
     main{
         margin-bottom: 20%;
-    }
-    .presentacion img{
-        
-        height: 200px;
     }
   }
