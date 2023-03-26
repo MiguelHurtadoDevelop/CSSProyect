@@ -53,4 +53,19 @@ label {
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px){
+    body{
+        width: 140%;
+        font-size: 60%;
+    }
+    main{
+        margin-bottom: 10%;
+    }
+    .presentacion img{
+        height: 200px;
+    }
+    
+    
+}
+
 
